@@ -1,5 +1,9 @@
+// postcss.config.mjs
+import tailwind from "tailwindcss";
+import scrollbar from "tailwind-scrollbar";
+
 const config = {
-  plugins: ["@tailwindcss/postcss"],
+  plugins: [tailwind(), scrollbar()],
 };
 
 export default config;
