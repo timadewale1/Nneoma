@@ -2,19 +2,22 @@ import React from "react";
 
 const publications = [
   {
-    title: "Nigeria's Energy Transition: Opportunities and Finance Gaps",
+    title:
+      "Living breathless: A journey through asthma gender disparities and environmental health in Nigeria",
     venue: "Policy Brief",
     year: 2024,
   },
   {
-    title: "Climate Finance Landscape in West Africa",
+    title:
+      "Gender and Clean Cooking: Enhancing Health and Environmental Outcomes in Low-Income Areas, Policy Note",
     venue: "Research Report",
-    year: 2023,
+    year: 2024,
   },
   {
-    title: "Adaptation Strategies for Coastal Communities",
+    title:
+      "Embracing Diversity: A journey towards inspired inclusion, Internal Report, Clean Technology Hub",
     venue: "Journal Article",
-    year: 2022,
+    year: 2024,
   },
 ];
 

@@ -20,6 +20,11 @@ const journey = [
     institution:
       "State House Staff Multipurpose Cooperative Society, Aso Rock, Abuja",
   },
+  {
+    role: "Higher National Diploma (HND) in Co-operative Economics and Management",
+    institution:
+      "Federal Co-operative College, Oji-River, Enugu State, Nigeria",
+  },
 ];
 const Journey = () => {
   return (
