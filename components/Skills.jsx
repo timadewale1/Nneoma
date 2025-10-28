@@ -28,21 +28,19 @@ const Skills = () => {
       <h2 className="h2 mb-8">
         My <span className="text-accent">Skills</span>
       </h2>
-      <div className="flex flex-wrap gap-4 max-w-sm lg:max-w-none">
+      <div className="flex flex-wrap gap-8 max-w-sm lg:max-w-none">
         {skills.map((item, index) => {
           return (
-            <TooltipProvider key={index}>
-              <Tooltip>
-                <TooltipTrigger className="w-14 h-14 rounded-full flex items-center justify-center bg-tertiary/70 group">
-                  <div className="text-2xl group-hover:text-accent transition-all">
-                    {item.icon}
-                  </div>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p className="text-base">{item.name}</p>
-                </TooltipContent>
-              </Tooltip>
-            </TooltipProvider>
+            <div key={index} className="flex flex-col items-center gap-2">
+              <div className="w-14 h-14 rounded-full flex items-center justify-center bg-tertiary/70 group">
+                <div className="text-2xl group-hover:text-accent transition-all">
+                  {item.icon}
+                </div>
+              </div>
+              <span className="text-xs text-center whitespace-nowrap opacity-80">
+                {item.name}
+              </span>
+            </div>
           );
         })}
       </div>
