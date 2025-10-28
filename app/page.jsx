@@ -3,6 +3,7 @@ import Blob from "@/components/Blob";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import avatarImg from "@/public/assets/nneoma.png";
+import { HiOutlineDownload } from "react-icons/hi";
 import { TypeAnimation } from "react-type-animation";
 import { MdArrowOutward } from "react-icons/md";
 import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
@@ -46,18 +47,31 @@ const Home = () => {
             with expertise in climate policy, sustainable development, and
             science communication.
           </p>
-          <button className="btn btn-lg btn-accent mb-16">
+          <button className="btn btn-lg btn-accent mb-6">
             <div className="flex items-center gap-3">
               <span>Let's Talk.</span>
               <MdArrowOutward />
             </div>
           </button>
+          <a
+            href="/NNEOMA Eneh CV.pdf"
+            download
+            className="btn btn-lg btn-tertiary mb-16"
+          >
+            <div className="flex items-center gap-3">
+              <span>Download CV</span>
+              <HiOutlineDownload />
+            </div>
+          </a>
           <div className="flex flex-col xl:flex-row xl:items-center gap-4 xl:gap-8 mb-12 xl:mb-0 ">
             <div className="flex items-center gap-3">
               <span className="text-accent">
                 <HiOutlinePhone className="text-lg" />
               </span>
-              <span className="text-[15px] md:text-base"> +234 12345678</span>
+              <span className="text-[15px] md:text-base">
+                {" "}
+                +234 08130422951
+              </span>
             </div>
 
             <div className="flex items-center gap-3">

@@ -16,8 +16,7 @@ const Info = () => {
               Current Role:
             </p>
             <p className="text-[14px] md:text-[15px]">
-              MPhil Candidate — Climate Change Science & Policy, University of
-              Bristol
+              Community Engagement Lead
             </p>
           </div>
         </div>
@@ -26,7 +25,9 @@ const Info = () => {
           <HiOutlineMail className="text-xl mt-1 text-accent" />
           <div>
             <p className="text-[15px] md:text-base font-medium">Email:</p>
-            <p className="text-[14px] md:text-[15px]">ne.eneh@bristol.ac.uk</p>
+            <p className="text-[14px] md:text-[15px]">
+              obinnaeneh.oma@gmail.com
+            </p>
           </div>
         </div>
       </div>
@@ -36,9 +37,7 @@ const Info = () => {
           <HiOutlinePhone className="text-xl mt-1 text-accent" />
           <div>
             <p className="text-[15px] md:text-base font-medium">Based in:</p>
-            <p className="text-[14px] md:text-[15px]">
-              Bristol, United Kingdom
-            </p>
+            <p className="text-[14px] md:text-[15px]">Abuja, Nigeria.</p>
           </div>
         </div>
 

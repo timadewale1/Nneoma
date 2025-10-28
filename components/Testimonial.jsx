@@ -9,7 +9,7 @@ import { ImQuotesLeft } from "react-icons/im";
 const testimonial = [
   {
     message:
-      "Selected as one of 60 emerging leaders in the Climate Change & Innovation Fellowship (Tony Blair Institute)",
+      "Selected as one of 60 emerging leaders in the Climate Change & Innovation Fellowship.",
     name: "Climate Fellowship",
   },
   {

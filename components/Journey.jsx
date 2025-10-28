@@ -1,13 +1,13 @@
 const journey = [
   {
     years: "2023 - Present",
-    role: "MPhil in Climate Change Science and Policy",
-    institution: "University of Bristol, UK",
+    role: "Community Engagement Lead",
+    institution: "Clean Technology Hub",
   },
   {
-    years: "2022 - 2023",
-    role: "Climate Change & Innovation Fellow",
-    institution: "Tony Blair Institute for Global Change",
+    years: "October 2022 – July 2023",
+    role: "Administrative Assistant",
+    institution: "Clean Technology Innovation Hub, Abuja",
   },
   {
     years: "2022",
@@ -15,9 +15,10 @@ const journey = [
     institution: "Centre for Climate Change and Development",
   },
   {
-    years: "2017 - 2021",
-    role: "B.Sc in Environmental Management and Toxicology",
-    institution: "Federal University of Agriculture, Abeokuta",
+    years: "October 2021 – September 2022",
+    role: "Front Desk Officer",
+    institution:
+      "State House Staff Multipurpose Cooperative Society, Aso Rock, Abuja",
   },
 ];
 const Journey = () => {

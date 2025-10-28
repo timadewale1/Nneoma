@@ -15,7 +15,7 @@ const socials = [
   },
   {
     icon: <BiLogoLinkedin />,
-    path: "",
+    path: "https://www.linkedin.com/in/nneoma-eneh",
   },
 ];
 
