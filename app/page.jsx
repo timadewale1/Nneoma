@@ -26,7 +26,14 @@ const Home = () => {
           <h1 className="h1 flex-1 mb-[28px]">
             Hi! I'm Nneoma Eneh, <br />
             <TypeAnimation
-              sequence={["Podcast Producer", 2000, "Climate Advocate", 2000]}
+              sequence={[
+                "Climate Change Researcher",
+                2000,
+                "Environmental Advocate",
+                2000,
+                "Science Communicator",
+                2000,
+              ]}
               wrapper="span"
               speed={40}
               className="text-accent"
@@ -35,8 +42,9 @@ const Home = () => {
             />
           </h1>
           <p className="max-w-[500px] mb-[44px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magnam
-            ea fugit, cupiditate voluptatem, voluptas, in
+            A passionate climate change researcher and environmental advocate
+            with expertise in climate policy, sustainable development, and
+            science communication.
           </p>
           <button className="btn btn-lg btn-accent mb-16">
             <div className="flex items-center gap-3">
@@ -45,18 +53,19 @@ const Home = () => {
             </div>
           </button>
           <div className="flex flex-col xl:flex-row xl:items-center gap-4 xl:gap-8 mb-12 xl:mb-0 ">
-            <div className="flex items-center gap-4 text-lg">
+            <div className="flex items-center gap-3">
               <span className="text-accent">
-                <HiOutlinePhone className="text-xl" />
+                <HiOutlinePhone className="text-lg" />
               </span>
-              <span> +234 12345678</span>
+              <span className="text-[15px] md:text-base"> +234 12345678</span>
             </div>
 
-            <div className="flex items-center gap-4 text-lg">
+            <div className="flex items-center gap-3">
               <span className="text-accent">
                 <HiOutlineMail className="text-xl" />
               </span>
-              <span>jtjtjtjtj@gmail.com</span>
+              <span>obinnaeneh.oma@gmail.com</span>
+              <span></span>
             </div>
           </div>
 
@@ -68,16 +77,19 @@ const Home = () => {
         </div>
 
         <div className="hidden xl:block flex-1 relative z-20">
-          <Blob containerStyles="w-[450px] h-[450px]" />
-          {/* <Image
-            src={avatarImg}
-            alt=""
-            width={400}
-            height={400}
-            quality={100}
-            className="absolute top-16 left-[120px]"
-          /> */}
-          <div className="w-full h-[164px] absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary via-primary/90 to-primary/40"></div>
+          <div className="relative">
+            <Blob containerStyles="w-[380px] h-[380px]" />
+            <Image
+              src={avatarImg}
+              alt="Nneoma"
+              width={340}
+              height={340}
+              quality={100}
+              priority
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20"
+            />
+          </div>
+          <div className="w-full h-[120px] absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary via-primary/90 to-primary/40"></div>
         </div>
       </div>
     </motion.section>

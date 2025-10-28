@@ -7,6 +7,7 @@ import Testimonial from "@/components/Testimonial";
 import Info from "@/components/Info";
 import Journey from "@/components/Journey";
 import Skills from "@/components/Skills";
+import Publications from "@/components/Publications";
 import Socials from "@/components/Social";
 import Blob from "@/components/Blob";
 
@@ -21,15 +22,13 @@ const About = () => {
       className="h-screen flex items-center"
     >
       <div className="container mx-auto px-0">
-        <div className="flex flex-col lg:flex-row items-center gap-24 w-full h-[450px]">
-          <div className="hidden lg:flex flex-col w-full h-full pt-14 max-w-[400px] relative">
+        <div className="flex flex-col lg:flex-row items-center gap-16 w-full h-[420px]">
+          <div className="hidden lg:flex flex-col w-full h-full pt-10 max-w-[360px] relative">
             {/* <Image src="/assets/avatar.png" width={320} height={496} alt="" className="z-20 relative"/> */}
-            <div className="w-full h-[60px] absolute left-0 top-[420px] right-0 bg-gradient-to-t from-primary via-primary/90 z-30"></div>
-
-            <div className="absolute top-[80px] -left-[80px] z-10">
-              <Blob containerStyles="w-[420px] h-[420px] " />
-            </div>
-
+            <div className="w-full h-[50px] absolute left-0 top-[380px] right-0 bg-gradient-to-t from-primary via-primary/90 z-30"></div>
+            <div className="absolute top-[60px] -left-[60px] z-10">
+              <Blob containerStyles="w-[380px] h-[380px]" />
+            </div>{" "}
             <Socials
               containerStyles="flex gap-4 z-40 w-max transform translate-x-[30px]"
               iconStyles="w-[48px] h-[48px] text-[22px] text-accent hover:text-accent-hover transtition-all flex items-center justify-center rounded-full cursor-pointer "
@@ -45,16 +44,20 @@ const About = () => {
                 <span className="text-accent">Nneoma</span> Eneh
               </h2>
               <p className="max-w-[440px] mb-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                est amet nesciunt facilis deserunt recusandae? Sunt dolorem
-                vitae facere eligendi, atque magnam asperiores commodi
-                recusandae, ut totam earum, temporibus libero?
+                A dedicated climate change researcher and environmental advocate
+                with expertise in climate policy, climate finance, and
+                sustainable development. Currently pursuing an MPhil in Climate
+                Change Science & Policy at the University of Bristol. Experience
+                includes climate finance research, policy analysis and
+                contributing to applied projects that inform national transition
+                planning.
               </p>
               <div className="flex flex-col items-start gap-8">
                 <Stats />
                 <Testimonial />
                 <Info />
                 <Journey />
+                <Publications />
                 <Skills />
               </div>
             </div>
